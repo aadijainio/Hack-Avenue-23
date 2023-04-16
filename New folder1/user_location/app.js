@@ -1,73 +1,27 @@
-// let map;
+//mait coordinates 28.71217
+//app.js:32 77.0679477
 
-// async function initMap() {
-//   //@ts-ignore
-//   const { Map } = await google.maps.importLibrary("maps");
+function getRandomLocation(latitude, longitude, radius) {
+  // Convert radius from meters to degrees
+  var radiusInDegrees = radius / 111000;
 
-//   map = new Map(document.getElementById("map"), {
-//     center: { lat: -34.397, lng: 150.644 },
-//     zoom: 8,
-//   });
-// }
+  // Generate a random distance and angle
+  var u = Math.random();
+  var v = Math.random();
+  var w = radiusInDegrees * Math.sqrt(u);
+  var t = 2 * Math.PI * v;
+  var x = w * Math.cos(t);
+  var y = w * Math.sin(t);
 
-// initMap();
+  // Adjust the x-coordinate for the shrinking of the east-west distances
+  var newLongitude = x / Math.cos(latitude);
 
-// x = navigator.geolocation;
-// x.getCurrentPosition(success, failure);
+  // Calculate the new latitude and longitude
+  var newLatitude = latitude + y;
+  newLongitude = longitude + newLongitude;
 
-// function success(position) {
-//   var myLat = position.coords.latitude;
-//   var myLong = position.coords.longitude;
-
-//   var coords = new google.maps.LatLng(myLat, myLong);
-
-//   var mapOptions = {
-//     zoom: 10,
-//     center: coords,
-//     mapTypeId: google.maps.MapTypeId.ROADMAP,
-//   };
-
-// }
-
-// // function failure() {}(g) => {
-// var h,
-//   a,
-//   k,
-//   p = "The Google Maps JavaScript API",
-//   c = "google",
-//   l = "importLibrary",
-//   q = "__ib__",
-//   m = document,
-//   b = window;
-// b = b[c] || (b[c] = {});
-// var d = b.maps || (b.maps = {}),
-//   r = new Set(),
-//   e = new URLSearchParams(),
-//   u = () =>
-//     h ||
-//     (h = new Promise(async (f, n) => {
-//       await (a = m.createElement("script"));
-//       e.set("libraries", [...r] + "");
-//       for (k in g)
-//         e.set(
-//           k.replace(/[A-Z]/g, (t) => "_" + t[0].toLowerCase()),
-//           g[k]
-//         );
-//       e.set("callback", c + ".maps." + q);
-//       a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
-//       d[q] = f;
-//       a.onerror = () => (h = n(Error(p + " could not load.")));
-//       a.nonce = m.querySelector("script[nonce]")?.nonce || "";
-//       m.head.append(a);
-//     }));
-// d[l]
-//   ? console.warn(p + " only loads once. Ignoring:", g)
-//   : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-// ({
-//   key: "AIzaSyA9bBt_iEQx1l2U0R73BRAorPoXoopMIXY",
-//   // Add other bootstrap parameters as needed, using camel case.
-//   // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
-// });
+  return { lat: newLatitude, lng: newLongitude };
+}
 x = navigator.geolocation;
 
 x.getCurrentPosition(success, failure);
@@ -98,6 +52,84 @@ function success(position) {
   var marker = new google.maps.Marker({
     map: map,
     position: coords,
+  });
+  //randomly marking the location of kabadiwalas
+
+  var marker = new google.maps.Marker({
+    map: map,
+    position: { lat: 28.712533152029486, lng: 77.06654889250827 },
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+  });
+  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
   });
 }
 
