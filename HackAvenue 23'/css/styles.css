@@ -11,8 +11,6 @@ nav{
     width: 100%;
     height: 60px;
     opacity: 0.7;
-    
-
 }
 
 
@@ -47,8 +45,76 @@ nav .containerr .menu a{
 
 .background{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url('../images/recycle3.jpg');
+    url('../images/Picsart_23-04-17_21-28-46-332.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 912px;
+    position: relative;
+
+}
+
+.uptagline{
+    font-size: 70px;
+    color:white;
+    font-weight: 900;
+    /* margin: 200px 0px 0px 80px; */
+    position: absolute;
+    top: 30px;
+    right: 16px;
+}
+
+.downtagline{
+    font-size: 100px;
+    color:white;
+    font-weight: 900;
+    font-style: none;
+    position: absolute;
+    top: 150px;
+    right: 16px;
+}
+
+.upstyledfont{
+    font-style: italic;
+    color: chartreuse;
+    font-size: 100px;
+}
+
+.downstyledfont{
+    font-size: 70px;
+    color: chartreuse;
+    font-weight: 900;
+    font-style: italic;
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    right: 360px;
+}
+
+.btn-primary{
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 80px;
+    right: 260px;
+    font-size: 35px;
+    font-weight: 700;
+    border: 0px;
+    
+    
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: black !important;
+}
+
+.btn-secondary{
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 80px;
+    right: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    border: 0px;
+}
+
+.btn-secondary:hover, .btn-primary:active{
+    background-color: black !important;
 }
