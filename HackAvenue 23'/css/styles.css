@@ -48,7 +48,7 @@ nav .containerr .menu a{
     url('../images/Picsart_23-04-17_21-28-46-332.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 912px;
+    height: 980px;
     position: relative;
 
 }
@@ -93,8 +93,8 @@ nav .containerr .menu a{
 .btn-primary{
     background-color: chartreuse;
     position: absolute;
-    bottom: 80px;
-    right: 260px;
+    bottom: 140px;
+    right: 470px;
     font-size: 35px;
     font-weight: 700;
     border: 0px;
@@ -108,8 +108,8 @@ nav .containerr .menu a{
 .btn-secondary{
     background-color: chartreuse;
     position: absolute;
-    bottom: 80px;
-    right: 60px;
+    bottom: 140px;
+    right: 260px;
     font-size: 35px;
     font-weight: 700;
     border: 0px;
@@ -117,4 +117,29 @@ nav .containerr .menu a{
 
 .btn-secondary:hover, .btn-primary:active{
     background-color: black !important;
+}
+
+.content{
+    font-size: 30px;
+    position: absolute;
+    bottom: 380px;
+    right: 40px;
+    font-weight: 700;
+}
+
+.statement{
+    font-weight: 700;
+    font-size: 50px;
+    position: absolute;
+    bottom: 280px;
+    right: 20px;
+}
+.earthday{
+    font-weight: 900;
+    font-size: 50px;
+    position: absolute;
+    bottom: 220px;
+    right: 350px;
+    font-style: italic;
+    color: chartreuse;
 }
