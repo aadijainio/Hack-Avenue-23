@@ -145,6 +145,19 @@ nav .containerr .menu a{
 }
 
 body{
-    background-color: #666666
-;
+    background-color: #666666;
+    font-size: 28px;
+
+}
+
+.heading{
+    font-size: 1.6em;
+    font-weight: 600;
+    color: black;
+    margin: 0px 10px 0px 30px;
+}
+
+.objectives{
+    font-weight: 600;
+    margin: 0px 20px 30px 20px;
 }
