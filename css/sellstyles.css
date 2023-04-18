@@ -31,6 +31,6 @@
     right: 70px;
 }
 
-.btn3:hover, .btn2:active{
+.btn3:hover, .btn3:active{
     background-color: chartreuse !important;
 }
