@@ -195,6 +195,7 @@ li {
 }
 
 footer{
+    font-size: 20px;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -235,7 +236,8 @@ footer{
     padding-left: 80px;
   }
   footer .content2 .middle a{
-    line-height: 32px;
+    font-style: none;
+
   }
   footer .content2 .right input[type="text"]{
     height: 45px;
@@ -251,20 +253,21 @@ footer{
   footer .content2 .right input[type="submit"]{
     height: 42px;
     width: 100%;
-    font-size: 18px;
-    color: #d9d9d9;
-    background: #eb2f06;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: chartreuse;
     outline: none;
     border-radius: 5px;
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 12px;
-    border: 2px solid #eb2f06;
+    border: 2px solid chartreuse;
     transition: all 0.3s ease-in-out;
   }
   .content .right input[type="submit"]:hover{
     background: none;
-    color:  #eb2f06;
+    color:  chartreuse;
   }
   footer .content2 .media-icons a{
     font-size: 16px;
@@ -279,7 +282,7 @@ footer{
     transition: all 0.3s ease;
   }
   .content .media-icons a:hover{
-    border-color: #eb2f06;
+    border-color: chartreuse;
   }
   footer .bottom{
     width: 100%;
@@ -288,11 +291,11 @@ footer{
     padding: 0 40px 5px 0;
   }
   footer .bottom a{
-    color: #eb2f06;
+    color: chartreuse;
   }
   footer a{
     transition: all 0.3s ease;
   }
   footer a:hover{
-    color: #eb2f06;
+    color: chartreuse;
   }
