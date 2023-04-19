@@ -1,0 +1,77 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 100%;
+  height: 100vh;
+}
+/* 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 75vh;
+  margin-top: 35px;
+  width: 95vw;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+.custom-map-control-button:hover {
+  background: rgb(235, 235, 235);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.details {
+  /* width: 100vw; */
+}
+.details p {
+}
+.user_image {
+  height: 64px;
+  width: 64px;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+.user-data {
+  display: inline-block;
+}
