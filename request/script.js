@@ -31,9 +31,14 @@ for (let i = 0; i < numRequests; i++) {
 
   const descriptionElement = document.createElement("p");
   descriptionElement.innerText = randomDescription;
+  const buttonElement = document.createElement("a");
+  buttonElement.innerText = "maps";
+  buttonElement.classList.add("map-btn");
+  buttonElement.href = "https://www.google.com/maps";
 
   requestElement.appendChild(titleElement);
   requestElement.appendChild(descriptionElement);
+  requestElement.appendChild(buttonElement);
 
   requestsContainer.appendChild(requestElement);
 }

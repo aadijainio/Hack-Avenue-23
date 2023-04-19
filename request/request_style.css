@@ -29,3 +29,11 @@ h1 {
 .margin-top {
   margin-top: 50px;
 }
+.map-btn {
+  background-color: #0ca678;
+  text-decoration: none;
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+}
