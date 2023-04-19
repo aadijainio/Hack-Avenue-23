@@ -1,0 +1,12 @@
+.featureheading{
+    font-size: 84px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.featurecontent{
+    font-size: 27px;
+    margin: 30px 60px 30px 60px; 
+    font-style: sans-serif;
+    font-weight: 500;
+}
