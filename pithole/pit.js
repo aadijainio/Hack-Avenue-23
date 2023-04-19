@@ -59,7 +59,7 @@ function success(position) {
     map: map,
     position: { lat: 28.712533152029486, lng: 77.06654889250827 },
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -67,7 +67,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -75,7 +75,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -83,7 +83,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -91,7 +91,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -99,7 +99,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -107,7 +107,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -115,7 +115,7 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
 
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
@@ -123,13 +123,197 @@ function success(position) {
     map: map,
     position: randomLocation,
   });
-  var myLocation = { lat: 28.71217, lng: 77.0679477 };
+  var myLocation = { lat: mylat, lng: mylong };
+  const icon = {
+    url: "/images/pothole.png", // url
+    scaledSize: new google.maps.Size(50, 50),
+    origin: new google.maps.Point(0, 0), // origin
+    anchor: new google.maps.Point(0, 0),
+  };
   var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
-
   console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
   var marker = new google.maps.Marker({
     map: map,
     position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
+  });
+
+  var randomLocation = getRandomLocation(myLocation.lat, myLocation.lng, 1000);
+  console.log(randomLocation); // Output: {lat: 28.71936805223836, lng: 77.05842556750348}
+  var marker = new google.maps.Marker({
+    map: map,
+    position: randomLocation,
+    icon: icon,
+    title: "pit",
   });
 }
 
