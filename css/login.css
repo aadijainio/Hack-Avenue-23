@@ -46,7 +46,9 @@ button {
   text-decoration: none;
   text-align: center;
 }
-
+.btn-login:hover {
+  background-color: black;
+}
 button:hover {
   background-color: black;
 }
