@@ -60,7 +60,7 @@ body {
   /* width: 100vw; */
 }
 .details h1 {
-  margin: 30px ;
+  margin: 30px;
 }
 .user_image {
   height: 64px;
@@ -72,7 +72,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 20vw;
-  margin: 20px;
+  margin-top: 30px;
 }
 .user-data {
   display: inline-block;
