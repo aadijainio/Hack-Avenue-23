@@ -59,7 +59,8 @@ body {
 .details {
   /* width: 100vw; */
 }
-.details p {
+.details h1 {
+  margin: 30px ;
 }
 .user_image {
   height: 64px;
@@ -71,6 +72,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 20vw;
+  margin: 20px;
 }
 .user-data {
   display: inline-block;
